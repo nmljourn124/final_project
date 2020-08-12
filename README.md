@@ -103,7 +103,7 @@ I was surprised to find that the majority of recent graduates clustered around a
 </script>
 
 
-Digging into this dataset further, I was curious to see the percentage of recent graduates unemployed with these majors and the percentage of women in each of these majors.
+Digging into this dataset further, I was curious to see the percentage of recent graduates unemployed within these majors and the percentage of women in each of these majors.
 
 
 <iframe title="Unemployment Rate and Percentage of Women in the Highest and Lowest Paying College Majors" aria-label="Grouped Bars" id="datawrapper-chart-S2V7P" src="https://datawrapper.dwcdn.net/S2V7P/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="367"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
@@ -111,7 +111,7 @@ Digging into this dataset further, I was curious to see the percentage of recent
 
 
 ## Wrapping It Up
-Overall, there was a lot of insight drawn from analyzing this dataset. The information that I found made me question the way our society views, uses, and values higher education. These are some of the questions I pondered. I hope you reflect on them as well.
+Overall, there was a lot of insight drawn from analyzing this dataset. The information that I found made me question the way our society views, uses, and values higher education. These are some of the questions I pondered that were not able to be answered with this dataset. I hope you reflect on them as well.
 * What does this dataset say about the *value* of each major? (This of course can differ based on tuition cost, amongst other factors)
 * What careers are deemed to be "more valuable" because they get paid more?
 * Does the proposed median earnings of a major affect the major that students choose?
