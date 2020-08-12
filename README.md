@@ -64,7 +64,7 @@ After everything I found through filtering, I noticed that there were a handful 
 2. Changed the values under "sharewomen" to be percentages and then moved this column next to the "women" column
 3. Created new column next to "men" called "sharemen" to reflect the percentage of males out of the total in each major. Used the following forumla to divide the males in each major over the total number of graduates:
 
-                             = D2/C2
+               = D2/C2
 * Applied the formula to the whole column
 * Converted all the values in this new column to percentages
 
