@@ -62,10 +62,16 @@ After everything I found through filtering, I noticed that there were a handful 
 * sample size
 
 2. Changed the values under "sharewomen" to be percentages and then moved this column next to the "women" column
-3. Created "sharemen" to reflect the percentage of males out of the total in each major. Used the following forumla then draged the :
+3. Created new column next to "men" called "sharemen" to reflect the percentage of males out of the total in each major. Used the following forumla to divide the males in each major over the total number of graduates:
 
               ``` = D2/C2 ```
-* 
+* Applied the formula to the whole column
+* Converted all the values in this new column to percentages
+
+
+
+## Data Visualizations
+As mentioned earlier, Psychology was found to be the most common major for women and Business Management and Administration the most common for men. The following graph illustrates the breakdown of both men and women in each major.
 
 <iframe title="Most Common College Majors for Men and Women" aria-label="chart" id="datawrapper-chart-Yb0qW" src="https://datawrapper.dwcdn.net/Yb0qW/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="579"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
 </script>
