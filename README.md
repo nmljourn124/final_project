@@ -8,12 +8,14 @@ The dataset that I used for this project was from the [FiveThirtyEight Github Da
 
 
 ## Steps I Took to Clean My Data
+---
 The data had already been cleaned, so the initial steps I took when opening the doc was just to make the sheet easier to read.
 1. Secured the header row, then bolded and highlighted the values and cells to differentiate it from the rest of the table.
 2. Text wrap the sheet so that everything is visible in each cell.
 
 
 ## Interrogating My Data
+---
 After cleaning my data, I put a filter on my entire dataset to find the highest and lowest value of each column. Here is a bulleted list of some information that piqued my interest:
 * Most common major for women: Psychology (307,087)
 * Least common major for women: Military Technologies (0)
@@ -34,6 +36,7 @@ After cleaning my data, I put a filter on my entire dataset to find the highest 
 
 
 ## Making Sense of What I Found
+---
 #### Looking at the category of "Total People Employed," I realized that my initial finding was not as surprising as I initially believed.
 Military Technologies has the least total people in a major and Psychology has the most. So taking their total number of graduates into account, the fact that those two came up as the majors with the least and most total people employed is reflective of the data. 
 
@@ -54,6 +57,7 @@ So because Psychology and Business Management and Administration have a far grea
 
 
 ## Visualizing What I Found
+---
 After everything I found through filtering, I noticed that there were a handful of majors that kept resurfacing when searching for the highest and lowest values of each column. I wanted to compare the data on the spreadsheet by majors. So after a second round of cleaning, I began to make pivot tables and graphs.
 
 ### Second Round of Cleaning
@@ -74,6 +78,7 @@ After everything I found through filtering, I noticed that there were a handful 
 
 
 ## Data Visualizations
+---
 As mentioned earlier, Psychology was found to be the most common major for women and Business Management and Administration the most common for men. The following graph illustrates the breakdown of both men and women in each major.
 
 
@@ -118,6 +123,7 @@ Digging into this dataset further, I was curious to see the percentage of recent
 
 
 ## Wrapping It Up
+---
 Overall, there was a lot of insight drawn from analyzing this dataset. The information that I found made me question the way our society views, uses, and values higher education. These are some of the questions I pondered that were not able to be answered with this dataset. I hope you reflect on them as well.
 * What does this dataset say about the *value* of each major? (This of course can differ based on tuition cost, amongst other factors)
 * What careers are deemed to be "more valuable" because they get paid more?
