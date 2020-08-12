@@ -11,6 +11,7 @@ The data had already been cleaned, so the initial steps I took when opening the 
 1. Secured the header row, then bolded and highlighted the values and cells to differentiate it from the rest of the table.
 2. Text wrap the sheet so that everything is visible in each cell.
 
+
 ## Interrogating My Data
 After cleaning my data, I put a filter on my entire dataset to find the highest and lowest value of each column. Here is a bulleted list of some information that piqued my interest:
 * Most common major for women: Psychology (307,087)
@@ -31,6 +32,7 @@ After cleaning my data, I put a filter on my entire dataset to find the highest 
 * Psychology and Business Management and Administration are also the top two majors for having the most number of graduates in low-wage service jobs
 
 
+
 ## Making Sense of What I Found
 #### Looking at the category of "Total People Employed," I realized that my initial finding was not as surprising as I initially believed.
 Military Technologies has the least total people in a major and Psychology has the most. So taking their total number of graduates into account, the fact that those two came up as the majors with the least and most total people employed is reflective of the data. 
@@ -47,6 +49,7 @@ It was also important to keep in mind that *having the greatest number of people
                 Unemployment rate = Unemployed / (Unemployed + Employed)
 
 So because Psychology and Business Management and Administration have far greater employed individuals, their overall unemployment rate is decreased.
+
 
 
 
@@ -70,26 +73,34 @@ After everything I found through filtering, I noticed that there were a handful 
 
 
 
+
 ## Data Visualizations
 As mentioned earlier, Psychology was found to be the most common major for women and Business Management and Administration the most common for men. The following graph illustrates the breakdown of both men and women in each major.
+
 
 <iframe title="Most Common College Majors for Men and Women" aria-label="chart" id="datawrapper-chart-Yb0qW" src="https://datawrapper.dwcdn.net/Yb0qW/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="579"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
 </script>
 
 [pivot table](https://media.journalism.berkeley.edu/upload/2020/08/1597200393f0a197c.png)
 
+
 *A realization you may have after seeing this graph is that "sharemen" and "sharewomen" do not indicate which major has more men or women. Percentages do not reflect the number of individuals in each major. So while Psychology and Business Management and Administration may not have the highest percentages of each gender in their major, they do in fact have the most women (Psychology) and men (Business Management and Administration).
 
 
 The next question I asked and wanted to see the answer to visually was whether the median income of each major affects the number of people who choose that major. The following graph answers this question.
 
+
 <iframe title="Median Earnings of College Majors" aria-label="chart" id="datawrapper-chart-paQ5q" src="https://datawrapper.dwcdn.net/paQ5q/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="620"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
 </script>
 
+
 I was surprised to find that the majority of recent graduates clustered around a median earning of 40k. After observing this distribution, I began to wonder what drew the most men and women to Business Management and Administration and Psychology. It cannot be for monetary reasons because surely there are other majors that pay more. As a result, I wanted to illustrate the difference in median earnings between the lowest and highest paying college majors to visually see the difference in pay.
+
+
 
 <iframe title="Median Earnings of Lowest and Highest Paying College Majors" aria-label="Split Bars" id="datawrapper-chart-OKpHK" src="https://datawrapper.dwcdn.net/OKpHK/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="276"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
 </script>
+
 
 Digging into this dataset further, I was curious to see the percentage of recent graduates unemployed with these majors and the percentage of women in each of these majors.
 
