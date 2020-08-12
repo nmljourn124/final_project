@@ -44,7 +44,7 @@ This is surprising since:
 * Business Management and Administration has the most full-time, year-round employed
 * Psychology has the most total people employed (307933)
 
-It was also important to keep in mind that *having the greatest number of people unemployed DOES NOT mean that you have the highest unemployment rate*. Nuclear Engineering and Public Administration are the top two majors with the highest unemployment rate.This is because:
+It is important to keep in mind that *having the greatest number of people unemployed DOES NOT mean that you have the highest unemployment rate*. Nuclear Engineering and Public Administration are the top two majors with the highest unemployment rate.This is because:
 
                 Unemployment rate = Unemployed / (Unemployed + Employed)
 
