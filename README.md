@@ -12,7 +12,7 @@ The data had already been cleaned, so the initial steps I took when opening the 
 2. Text wrap the sheet so that everything is visible in each cell.
 
 ### Interrogating My Data
-After cleaning my data, I put a filter on my entire dataset to find the highest and lowest value of each column. Here is a bulleted list of information that piqued my interest:
+After cleaning my data, I put a filter on my entire dataset to find the highest and lowest value of each column. Here is a bulleted list of some information that piqued my interest:
 * Most common major for women: Psychology (307,087)
 * Least common major for women: Military Technologies (0)
 
@@ -24,10 +24,27 @@ After cleaning my data, I put a filter on my entire dataset to find the highest 
 * Most full-time employed major: Business Management and Administration
 * Least full-time employed major: Military Technologies
 
+* Most full-time, year-round employed major: Business Management and Administration
+* Least full-time, year-round employed major: Military Technologies
+
+
+
+
 ### Making Sense of What I Found
 Looking at the category of "Total People Employed," I realized that my initial finding was not as surprising as I initially believed. Military Technologies has the least total people in a major and Psychology has the most. So taking their total number of graduates into account, the fact that those two came up as the majors with the least and most total people employed is reflective of the data. 
 
+#### Psychology and Business Management and Administration are the top two majors with the greatest number of people unemployed
+This is surprising since:
+* Business Management and Administration was identified as the major with the most full-time employed graduates
+* Psychology is the most part-time employed major
+* Business Management and Administration has the most full-time, year-round employed
+* Psychology has the most total people employed (307933)
 
+It was also important to keep in mind that *having the greatest number of people unemployed DOES NOT mean that you have the highest unemployment rate*. Nuclear Engineering and Public Administration are the top two majors with the highest unemployment rate.This is because:
+
+                Unemployment rate = Unemployed / (Unemployed + Employed)
+
+So because Psychology and Business Management and Administration have far greater employed individuals, their overall unemployment rate is decreased.
 
 
 <iframe title="Most Common College Majors for Men and Women" aria-label="chart" id="datawrapper-chart-Yb0qW" src="https://datawrapper.dwcdn.net/Yb0qW/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="579"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
