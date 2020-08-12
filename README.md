@@ -1,6 +1,7 @@
-# Final Project for Nicole Lee
+# J124 Final Project: Analyzing the Most Common and Highest Paying College Majors
+### By Nicole Lee
 
-Here is some text. And I want to create a [link](https://wikipedia.org).
+The dataset that I used for this project was from the [FiveThirtyEight Github Data Repository](https://github.com/fivethirtyeight/data). The original data was sourced from the American Community Survey 2010-2012 Public Use Microdata Series and can be downloaded [here](http://www.census.gov/programs-surveys/acs/data/pums.html).
 
 1. Here is a list
 2. Another item
