@@ -64,7 +64,7 @@ After everything I found through filtering, I noticed that there were a handful 
 2. Changed the values under "sharewomen" to be percentages and then moved this column next to the "women" column
 3. Created new column next to "men" called "sharemen" to reflect the percentage of males out of the total in each major. Used the following forumla to divide the males in each major over the total number of graduates:
 
-              ``` = D2/C2 ```
+                             = D2/C2
 * Applied the formula to the whole column
 * Converted all the values in this new column to percentages
 
@@ -76,32 +76,20 @@ As mentioned earlier, Psychology was found to be the most common major for women
 <iframe title="Most Common College Majors for Men and Women" aria-label="chart" id="datawrapper-chart-Yb0qW" src="https://datawrapper.dwcdn.net/Yb0qW/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="579"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
 </script>
 
+*A realization you may have after seeing this graph is that "sharemen" and "sharewomen" do not indicate which major has more men or women. Percentages do not reflect the number of individuals in each major. So while Psychology and Business Management and Administration may not have the highest percentages of each gender in their major, they do in fact have the most women (Psychology) and men (Business Management and Administration).
 
 
-
-
-
-
-Here is some text.
-
-More text
-
+The next question I asked and wanted to see the answer to visually was whether the median income of each major affects the number of people who choose that major. The following graph answers this question.
 
 <iframe title="Median Earnings of College Majors" aria-label="chart" id="datawrapper-chart-paQ5q" src="https://datawrapper.dwcdn.net/paQ5q/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="620"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
 </script>
 
-
-
-
-
-The formula I used was:
+After observing this distribution, I began to wonder what drew the most men and women to Business Management and Administration and Psychology. It cannot be for monetary reasons because surely there are other majors that pay more. As a result, I wanted to illustrate the difference in median earnings between the lowest and highest paying college majors to visually see the difference in pay.
 
 <iframe title="Median Earnings of Lowest and Highest Paying College Majors" aria-label="Split Bars" id="datawrapper-chart-OKpHK" src="https://datawrapper.dwcdn.net/OKpHK/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="276"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
 </script>
 
-
-
-more text
+Digging into this dataset further, I was curious to see the percentage of recent graduates unemployed with these majors and the percentage of women in each of these majors.
 
 
 <iframe title="Unemployment Rate and Percentage of Women in the Highest and Lowest Paying College Majors" aria-label="Grouped Bars" id="datawrapper-chart-S2V7P" src="https://datawrapper.dwcdn.net/S2V7P/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="367"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
