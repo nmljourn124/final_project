@@ -1,9 +1,9 @@
 # J124 Final Project: Analyzing the Most Common and Highest Paying College Majors
-### By Nicole Lee
+### The data for this project was recorded from a survey given to recent college graduates under the age of 28. The dataset contains information about median earnings, employment status, major in college, and much more.
+#### By Nicole Lee
 
 The dataset that I used for this project was from the [FiveThirtyEight Github Data Repository](https://github.com/fivethirtyeight/data). The FiveThirtyEight dataset that I used can be found in the files of my repository or can be downloaded through this [link](https://github.com/nmljourn124/final_project/blob/master/recent-grads.csv). The original data was sourced from the American Community Survey 2010-2012 Public Use Microdata Series and can be downloaded [here](http://www.census.gov/programs-surveys/acs/data/pums.html).
 
-The data for this project was recorded from a survey given to recent college graduates under the age of 28. The dataset contains information about median earnings, employment status, major in college, and much more.
 
 
 ## Steps I Took to Clean My Data
