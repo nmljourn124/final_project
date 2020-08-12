@@ -49,7 +49,7 @@ Nuclear Engineering and Public Administration are the top two majors with the hi
 
                 Unemployment rate = Unemployed / (Unemployed + Employed)
 
-So because Psychology and Business Management and Administration have far greater employed individuals, their overall unemployment rate is decreased.
+So because Psychology and Business Management and Administration have a far greater number of employed individuals, their overall unemployment rate is decreased.
 
 
 
