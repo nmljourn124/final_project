@@ -1,9 +1,10 @@
 # J124 Final Project: Analyzing the Most Common and Highest Paying College Majors
+
 ### The data for this project was recorded from a survey given to recent college graduates under the age of 28. The dataset contains information about median earnings, employment status, major in college, and much more.
 #### By Nicole Lee
+---
 
 The dataset that I used for this project was from the [FiveThirtyEight Github Data Repository](https://github.com/fivethirtyeight/data). The FiveThirtyEight dataset that I used can be found in the files of my repository or can be found [here](https://github.com/nmljourn124/final_project/blob/master/recent-grads.csv). The original data was sourced from the American Community Survey 2010-2012 Public Use Microdata Series and can be downloaded [here](http://www.census.gov/programs-surveys/acs/data/pums.html).
-
 
 
 ## Steps I Took to Clean My Data
@@ -32,7 +33,6 @@ After cleaning my data, I put a filter on my entire dataset to find the highest 
 * Psychology and Business Management and Administration are also the top two majors for having the most number of graduates in low-wage service jobs
 
 
-
 ## Making Sense of What I Found
 #### Looking at the category of "Total People Employed," I realized that my initial finding was not as surprising as I initially believed.
 Military Technologies has the least total people in a major and Psychology has the most. So taking their total number of graduates into account, the fact that those two came up as the majors with the least and most total people employed is reflective of the data. 
@@ -50,7 +50,6 @@ Nuclear Engineering and Public Administration are the top two majors with the hi
                 Unemployment rate = Unemployed / (Unemployed + Employed)
 
 So because Psychology and Business Management and Administration have a far greater number of employed individuals, their overall unemployment rate is decreased.
-
 
 
 
@@ -74,7 +73,6 @@ After everything I found through filtering, I noticed that there were a handful 
 
 
 
-
 ## Data Visualizations
 As mentioned earlier, Psychology was found to be the most common major for women and Business Management and Administration the most common for men. The following graph illustrates the breakdown of both men and women in each major.
 
@@ -82,7 +80,8 @@ As mentioned earlier, Psychology was found to be the most common major for women
 <iframe title="Most Common College Majors for Men and Women" aria-label="chart" id="datawrapper-chart-Yb0qW" src="https://datawrapper.dwcdn.net/Yb0qW/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="579"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
 </script>
 
-[pivot table](https://media.journalism.berkeley.edu/upload/2020/08/1597200393f0a197c.png)
+
+[pivot table]()
 
 
 *A realization you may have after seeing this graph is that "sharemen" and "sharewomen" do not indicate which major has more men or women. Percentages do not reflect the number of individuals in each major. So while Psychology and Business Management and Administration may not have the highest percentages of each gender in their major, they do in fact have the most women (Psychology) and men (Business Management and Administration).
