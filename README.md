@@ -6,12 +6,12 @@ The dataset that I used for this project was from the [FiveThirtyEight Github Da
 The data for this project was recorded from a survey given to recent college graduates under the age of 28. The dataset contains information about median earnings, employment status, major in college, and much more.
 
 
-### Steps I Took to Clean My Data
+## Steps I Took to Clean My Data
 The data had already been cleaned, so the initial steps I took when opening the doc was just to make the sheet easier to read.
 1. Secured the header row, then bolded and highlighted the values and cells to differentiate it from the rest of the table.
 2. Text wrap the sheet so that everything is visible in each cell.
 
-### Interrogating My Data
+## Interrogating My Data
 After cleaning my data, I put a filter on my entire dataset to find the highest and lowest value of each column. Here is a bulleted list of some information that piqued my interest:
 * Most common major for women: Psychology (307,087)
 * Least common major for women: Military Technologies (0)
@@ -27,11 +27,13 @@ After cleaning my data, I put a filter on my entire dataset to find the highest 
 * Most full-time, year-round employed major: Business Management and Administration
 * Least full-time, year-round employed major: Military Technologies
 
+* Business Management and Administration and Psychology are the top two majors for having the most number of graduates with a job not requiring a college degree
+* Psychology and Business Management and Administration are also the top two majors for having the most number of graduates in low-wage service jobs
 
 
-
-### Making Sense of What I Found
-Looking at the category of "Total People Employed," I realized that my initial finding was not as surprising as I initially believed. Military Technologies has the least total people in a major and Psychology has the most. So taking their total number of graduates into account, the fact that those two came up as the majors with the least and most total people employed is reflective of the data. 
+## Making Sense of What I Found
+#### Looking at the category of "Total People Employed," I realized that my initial finding was not as surprising as I initially believed.
+Military Technologies has the least total people in a major and Psychology has the most. So taking their total number of graduates into account, the fact that those two came up as the majors with the least and most total people employed is reflective of the data. 
 
 #### Psychology and Business Management and Administration are the top two majors with the greatest number of people unemployed
 This is surprising since:
@@ -46,6 +48,24 @@ It was also important to keep in mind that *having the greatest number of people
 
 So because Psychology and Business Management and Administration have far greater employed individuals, their overall unemployment rate is decreased.
 
+
+
+## Visualizing What I Found
+After everything I found through filtering, I noticed that there were a handful of majors that kept resurfacing when searching for the highest and lowest values of each column. I wanted to compare the data on the spreadsheet by majors. So after a second round of cleaning, I began to make pivot tables and graphs.
+
+### Second Round of Cleaning
+
+1. Deleted the following columns:
+* Major code
+* 25th percentile of earnings
+* 75th percentile of earnings
+* sample size
+
+2. Changed the values under "sharewomen" to be percentages and then moved this column next to the "women" column
+3. Created "sharemen" to reflect the percentage of males out of the total in each major. Used the following forumla then draged the :
+
+              ``` = D2/C2 ```
+* 
 
 <iframe title="Most Common College Majors for Men and Women" aria-label="chart" id="datawrapper-chart-Yb0qW" src="https://datawrapper.dwcdn.net/Yb0qW/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="579"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
 </script>
