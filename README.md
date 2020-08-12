@@ -37,14 +37,15 @@ After cleaning my data, I put a filter on my entire dataset to find the highest 
 #### Looking at the category of "Total People Employed," I realized that my initial finding was not as surprising as I initially believed.
 Military Technologies has the least total people in a major and Psychology has the most. So taking their total number of graduates into account, the fact that those two came up as the majors with the least and most total people employed is reflective of the data. 
 
-#### Psychology and Business Management and Administration are the top two majors with the greatest number of people unemployed
+#### Psychology and Business Management and Administration are the top two majors with the greatest number of people unemployed.
 This is surprising since:
 * Business Management and Administration was identified as the major with the most full-time employed graduates
 * Psychology is the most part-time employed major
 * Business Management and Administration has the most full-time, year-round employed
 * Psychology has the most total people employed (307933)
 
-It is important to keep in mind that *having the greatest number of people unemployed DOES NOT mean that you have the highest unemployment rate*. Nuclear Engineering and Public Administration are the top two majors with the highest unemployment rate.This is because:
+#### Having the greatest number of people unemployed DOES NOT mean that you have the highest unemployment rate.
+Nuclear Engineering and Public Administration are the top two majors with the highest unemployment rate.This is because:
 
                 Unemployment rate = Unemployed / (Unemployed + Employed)
 
